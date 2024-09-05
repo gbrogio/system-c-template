@@ -7,10 +7,10 @@ char menuScreen() {
   cls();
   writeText("Menu:", SCREEN_WIDTH / 2, 4);
   writeText("What you want?", 0, 6);
-  writeText("1 - Create", 0, 10);
-  writeText("2 - Read", 0, 11);
-  writeText("3 - Update", 0, 12);
-  writeText("4 - Delete", 0, 13);
+  writeText("1 - Create", 0, 8);
+  writeText("2 - Read", 0, 9);
+  writeText("3 - Update", 0, 10);
+  writeText("4 - Delete", 0, 11);
   buildScreen();
   
   char option = command();
